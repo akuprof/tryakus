@@ -65874,6 +65874,9 @@ var logger = (0, import_pino.default)({
     }
   }
 });
+var webRoot = path3.join(process.cwd(), "artifacts/trichy-insight/dist/public");
+app.use(import_express20.default.static(webRoot));
+app.get("/{*path}", (_req, res) => res.sendFile(path3.join(webRoot, "index.html")));
 
 // src/app.ts
 var app = (0, import_express20.default)();
