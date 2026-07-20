@@ -1,0 +1,33 @@
+{
+  "name": "Trichy Insight | திருச்சி செய்திகள்",
+  "short_name": "Trichy Insight",
+  "description": "திருச்சிராப்பள்ளி மாவட்டத்தின் நம்பகமான தமிழ் செய்தி தளம்",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0F172A",
+  "theme_color": "#DC2626",
+  "orientation": "portrait-primary",
+  "lang": "ta",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["news"],
+  "screenshots": [
+    {
+      "src": "/opengraph.jpg",
+      "type": "image/jpeg",
+      "sizes": "1200x630",
+      "form_factor": "wide"
+    }
+  ]
+}
