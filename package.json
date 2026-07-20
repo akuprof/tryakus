@@ -1,0 +1,15 @@
+{
+  "name": "trichy-insight-deployment",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node artifacts/api-server/dist/index.mjs",
+    "check": "node --check artifacts/api-server/dist/index.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.922.0"
+  }
+}
